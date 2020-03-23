@@ -2,8 +2,8 @@ package test
 
 import (
 	docker "github.com/fsouza/go-dockerclient"
-	gnatsd "github.com/nats-io/nats-server/v2/server"
-	gnatsdtest "github.com/nats-io/nats-server/v2/test"
+	gnatsd "github.com/nats-io/gnatsd/server"
+	gnatsdtest "github.com/nats-io/gnatsd/test"
 )
 
 func init() {
